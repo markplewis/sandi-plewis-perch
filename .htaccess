@@ -1,0 +1,7 @@
+# Forces the www subdomain and https
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{HTTP_HOST} ^sandiplewis\.com$ [NC]
+  RewriteRule ^(.*)$ https://www.sandiplewis.com/$1 [R=301,L]
+</IfModule>
