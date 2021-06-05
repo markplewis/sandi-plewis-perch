@@ -1,0 +1,1 @@
+This directory contains an export of the website's database for archival purposes, since it was decommissioned in June of 2021.

@@ -1,0 +1,1 @@
+The source code for the initial version of sandiplewis.com, which was built with [Perch CMS](https://grabaperch.com/). This version of the website was archived in June of 2021 and is no longer in use.
