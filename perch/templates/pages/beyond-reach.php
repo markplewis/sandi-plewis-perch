@@ -29,13 +29,11 @@
 </nav>
 
 <main id="body">
-  <h3>Latest Novel: <em>Beyond Reach</em></h3>
-
-  <div class="book-with-info book-with-info--home">
+  <h3><?php perch_content('Page Heading'); ?></h3>
+  
+  <div class="book-with-info">
     <div>
-      <a href="/beyond-reach.php">
-        <img src="/images/beyond-reach-cover.jpg" width="200" height="309" alt="Beyond Reach">
-      </a>
+      <img src="/images/beyond-reach-cover.jpg" width="200" height="309" alt="Beyond Reach">
     </div>
     <div>
       <p>Now available on <a href="https://www.amazon.ca/Beyond-Reach-Sandi-Plewis-ebook/dp/B082HD9Q1F/ref=sr_1_2?dchild=1&qid=1596029150&refinements=p_27%3ASandi+Plewis&s=digital-text&sr=1-2&text=Sandi+Plewis">Amazon</a> and at the following Ontario book stores:</p>
@@ -48,15 +46,19 @@
         <li><a href="https://villagebookshop.ca/">The Village Bookshop</a>, Bayfield</li>
         <li><a href="http://www.treasuresofstratford.ca/">Treasures</a>, Stratford</li>
       </ul>
-      <p><a href="/beyond-reach.php">Learn more about <em>Beyond Reach</em></a></p>
     </div>
   </div>
 
-  <div style="margin-top: 20px">
-    <img id="portrait" src="/images/sandi-plewis.jpg" width="200" height="300" alt="Photo of Sandi Plewis sitting at a table" />
-    <h3><?php perch_content('Page Heading'); ?></h3>
-    <?php perch_content('Page Body'); ?>
-  </div>
+  <h3 class="reviews-heading">Synopsis</h3>
+
+  <p><em>Rae McKeon spent most of her life trying to reach her emotionally absent mother, Fern. Now that her mother has died, Rae seeks to discover the reason for Fern’s suffocating silences, the barriers she erected between herself and her family. The only person who could reach Fern was Rae’s daughter Hannah, but Rae has never been able to connect with Hannah either.</em></p>
+
+  <p><em>From unruly child to defiant teenager to unwed mother, Rae always seemed to find the most self-destructive means of coping with her life’s challenges. But even though Rae could defy her strict, disapproving father, protecting herself from her mother’s chronic depression proved to be her toughest challenge. When Rae finds a box of her mother’s diaries, she is suddenly able to decode the path of Fern’s life, even while she tries to sort out her own life, including her strange relationship with her long-term boyfriend and her estrangement from her daughter Hannah.</em></p>
+
+  <p><em>Through three generations, Beyond Reach explores the oppressions that have silenced women for centuries. Fern is crippled by fear, Rae by shame, and Hannah by judgment. Just like the main characters, the answers often seem beyond reach.</em></p>
+
+  <h3 class="reviews-heading">Reviews</h3>
+  <?php perch_content('Page Body'); ?>
 </main>
 
 <footer id="footer">

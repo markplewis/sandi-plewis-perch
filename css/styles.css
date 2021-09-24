@@ -78,8 +78,6 @@ caption {
 a, a:link, a:visited {
   text-decoration: none;
   font-family: Helvetica, Arial, Verdana, sans-serif;
-  font-size: 12px;
-	line-height: 18px;
   color: #990000;
 	font-weight: normal;
 }
@@ -153,6 +151,24 @@ a:hover, a:active, a.active {
 #book-list a {
   font-size: 16px;
 }
+
+.book-with-info {
+  padding: 10px;
+  background-color: #e2ddd2;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+.book-with-info div:first-child {
+  margin-right: 30px;
+}
+.reviews-heading {
+  margin-top: 20px;
+}
+
 #footer {
   height: 50px;
   margin-top: 30px;
@@ -266,6 +282,18 @@ form .error {
 	background-color: #FFCCCC;
   display: block;
   clear: both;
+}
+
+@media all and (max-width: 649px) {
+  .book-with-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .book-with-info div:first-child {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
 
 @media all and (max-width: 399px) {

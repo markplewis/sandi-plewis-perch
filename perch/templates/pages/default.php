@@ -1,8 +1,10 @@
 <?php include($_SERVER['DOCUMENT_ROOT'].'/perch/runtime.php'); ?>
-<!DOCTYPE HTML>
-<html>
+<!doctype html>
+<html lang="en-CA" dir="ltr">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="<?php perch_content('Site Description'); ?>" />
 <meta name="keywords" content="<?php perch_content('Site Keywords'); ?>" />
 <title><?php perch_content('Site Title'); ?> | <?php perch_pages_title(); ?></title>

@@ -241,5 +241,6 @@
 	"Thank you. Now check your email for the new password.":"Thank you. Now check your email for the new password.",
 	"If you do not receive an email, look in your spam folder and also check that the email address you have used is the one we have for you.":"If you do not receive an email, look in your spam folder and also check that the email address you have used is the one we have for you.",
 	"%sLog in%s or %stry again%s":"%sLog in%s or %stry again%s",
-	"Content shared with all pages":"Content shared with all pages"
+	"Content shared with all pages":"Content shared with all pages",
+	"Content of type":"Content of type"
 }
