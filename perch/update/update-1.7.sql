@@ -1,1 +1,0 @@
-ALTER TABLE `__PREFIX__contentItems` ADD FULLTEXT idx_search (`contentJSON`);

@@ -1,1 +1,0 @@
-<?php include('perch/templates/pages/home.php'); ?>
